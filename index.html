@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ananya Aggarwal | Tech Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo" style="font-family: 'Dancing Script', cursive; font-size: 1.8rem;">Ananya Aggarwal</a>
+      <ul class="nav-menu">
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-toggle" id="nav-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="home">
+    <div class="hero-bg">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+    <div class="intro">
+      <img src="hero.jpg" alt="Ananya Aggarwal" class="hero-img" />
+      <h1 class="fade-in">Hi, I’m <span class="highlight">Ananya Aggarwal</span></h1>
+      <p class="slide-up">Tech Explorer 👩‍💻 | Designing Experiences, Building Solutions.</p>
+      <p class="typewriter" id="intro-text"></p>
+      <a href="#about" class="btn pulse" id="about-btn">About Me</a>
+    </div>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about" class="about-section">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content" style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; max-width: 900px; margin: 0 auto;">
+      <div class="about-education">
+        <h3>🎓 Education</h3>
+        <p><strong>B.Tech</strong><br>Dev Bhoomi Uttarakhand University<br><em>Expected 2027</em></p>
+        <p><strong>12th</strong><br>Bibijeet Kaur Senior Secondary School, Paonta Sahib<br><em>2023</em></p>
+        <p><strong>10th</strong><br>Hill View Public School<br><em>2021</em></p>
+      </div>
+      <div class="about-skills">
+        <h3>🛠 Skills</h3>
+        <h4>Technical</h4>
+        <p>HTML, CSS, JavaScript, SQL, C, Java</p>
+        <h4>Tools</h4>
+        <p>VS Code, GitHub, Canva, Pandas, NumPy</p>
+      </div>
+    </div>
+    <div class="resume-download scroll-animate" style="margin-top: 3rem;">
+      <a href="resume.pdf" class="btn pulse" download>📄 Download My Resume</a>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-container scroll-animate">
+      <div class="project-card" style="background-image: url('port.png');" data-img="port.png" data-title="My Portfolio" data-desc="Personal portfolio website showcasing projects and skills." 
+        data-link="https://anany93177.github.io/portfolio/">
+        <h3>My Portfolio</h3>
+        <button class="btn small-btn open-modal-btn">View Details</button>
+      </div>
+      <div class="project-card" style="background-image: url('xcmd.png');" data-img="xcmd.png" data-title="XC-MD" data-desc="XC-MD: A Cross-Platform Malware Detection System for Windows and Android with Explainable AI (XAI) Capabilities." 
+        data-link="https://sheeesshhhh-xc-md.hf.space/">
+        <h3>XC-MD</h3>
+        <button class="btn small-btn open-modal-btn">View Details</button>
+      </div>
+      <div class="project-card" style="background-image: url('ywaste-logo.png');" data-img="ywaste-logo.png" data-title="ywaste" data-desc="Reducing Food Waste and Fighting Hunger Through Smart Resource Redistribution."
+        data-link="https://ywaste.vercel.app/">
+        <h3>ywaste</h3>
+        <button class="btn small-btn open-modal-btn">View Details</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="certifications-section">
+    <h2 class="section-title">Certifications</h2>
+    <div class="certifications-grid responsive-grid" style="display: grid; gap: 40px; max-width: 900px; margin: 0 auto; text-align: left;">
+      <div class="cert-column">
+        <ul style="list-style: none; padding: 0;">
+          <li style="margin-bottom: 25px;">
+            <strong>Internshala Web Development</strong><br>
+            <small style="color: var(--text-muted);">Built dynamic web applications using HTML, CSS, and JavaScript.</small>
+          </li>
+          <li style="margin-bottom: 25px;">
+            <strong>Microsoft Azure AI Fundamentals</strong><br>
+            <small style="color: var(--text-muted);">Mastered AI & ML concepts and implemented services on Azure.</small>
+          </li>
+        </ul>
+      </div>
+      <div class="cert-column">
+        <ul style="list-style: none; padding: 0;">
+          <li style="margin-bottom: 25px;">
+            <strong>AI Fundamentals (Microsoft Azure)</strong><br>
+            <small style="color: var(--text-muted);">Gained foundational knowledge in cloud AI and automated services.</small>
+          </li>
+          <li style="margin-bottom: 25px;">
+            <strong>Freedom with AI Masterclass</strong><br>
+            <small style="color: var(--text-muted);">Explored advanced AI applications and integration strategies.</small>
+          </li>
+          <li style="margin-bottom: 25px;">
+            <strong>Microsoft Azure Data Fundamentals</strong><br>
+            <small style="color: var(--text-muted);">Proficient in cloud data management, analytics, and processing.</small>
+          </li>
+          <li style="margin-bottom: 25px;">
+            <strong>AWS & Microsoft Certified AI Practitioner</strong><br>
+            <small style="color: var(--text-muted);">Expertise in core AI principles and their real-world practical applications.</small>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-wrapper">
+      <div class="contact-info-card">
+        <h3>Let's Connect</h3>
+        <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+        
+        <div class="info-item">
+          <div class="icon">📧</div>
+          <div>
+            <h4>Email Me</h4>
+            <a href="mailto:aggarwalananya602@gmail.com">aggarwalananya602@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="icon">📞</div>
+          <div>
+            <h4>Call Me</h4>
+            <a href="tel:+919317727195">+91 93177 27195</a>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+</section>
+
+  <footer class="footer">
+  <div class="footer-socials">
+    <a href="https://github.com/anany93177" target="_blank" aria-label="GitHub">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+    </a>
+
+    <a href="https://www.linkedin.com/in/ananya-aggarwal-880899293
+" target="_blank" aria-label="LinkedIn">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+    </a>
+  </div>
+
+  <p>© 2025 Ananya Aggarwal</p>
+</footer>
+
+    <!-- Side Drawer for Project Details -->
+  <div id="side-drawer" class="side-drawer">
+    <div class="drawer-content">
+      <span class="close-drawer" id="drawer-close">&times;</span>
+      <img id="drawer-img" src="" alt="Project Preview" class="drawer-img">
+      <h3 id="drawer-title"></h3>
+      <p id="drawer-desc"></p>
+      <div class="drawer-actions">
+        <a id="drawer-link" href="#" target="_blank" class="btn">Visit Live Site</a>
+      </div>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
